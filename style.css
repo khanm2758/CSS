@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 95vh;
+    background-image: linear-gradient( to left top ,rgba(2, 62, 138, 0.4), rgba(3, 4, 94, 0.8)) ,url("./img/pexels-njeromin-27051404.jpg");
+    position: relative;
+    background-position: top;
+    background-size: cover;
+    
+}
+
+.logo-box{
+    font-family:Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.text-box{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+}
+.text-box > h1{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 23px ;
+}
+.text-box > h3{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    text-align: center;
+}
+
+
+
