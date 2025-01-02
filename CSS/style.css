@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 1st row */
+.row {
+  max-width: 192rem;
+  margin: 0 auto;
+  font-size: 2rem;
+  height: 10rem;
+  background-color: #dadbd8;
+
+  /* 1st col */
+  .col-1-of-4 {
+    float: left;
+    width: calc((100% - 6rem) / 4);
+    margin-right: 9rem;
+
+    /* logo */
+    .logo-search {
+      line-height: 10rem;
+    }
+    .logo-search .search {
+      float: left;
+      margin-right: 3rem;
+      margin-left: 2rem;
+      font-size: 2rem;
+    }
+    /* search */
+    .logo-search .logo {
+      float: left;
+      font-size: 5rem;
+    }
+  }
+  /* 2nd col */
+  .col-3-of-4 {
+    float: left;
+    width: calc((3 * (100% - 3 * 6rem) / 4) + 6rem);
+
+    .btn-menu {
+      line-height: 10rem;
+
+      /* menu */
+      .header-menu {
+        float: right;
+        margin-right: 2rem;
+
+        ul {
+          list-style: none;
+
+          li {
+            display: inline-block;
+
+            a {
+              text-decoration: none;
+              padding: 1rem 2rem;
+              color: #000;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+
+      /* button */
+      .header-btn {
+        float: right;
+        margin-right: 4rem;
+
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: #000;
+          padding: 1rem 2rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* hero image */
+.hero-img {
+  height: 95vh;
+
+  background-image: url("../img/travel.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .hero__info {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: #000;
+    max-width: 90rem;
+
+    h5 {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 6rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+      margin-bottom: 4rem;
+    }
+    a {
+      font-size: 1.7rem;
+      padding: 1rem 2rem;
+      background-color: #fff;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
