@@ -31,18 +31,18 @@ main h1 {
   border-bottom: 1px solid #000;
   margin-top: 3.8rem;
   text-transform: uppercase;
-  color: #323b4c
+  color: #323b4c;
 }
 
 /* icon setting */
-.icon-size-profile{
+.icon-size-profile {
   font-size: 1.2rem;
   color: #fff;
   position: absolute;
   left: 27%;
   top: 20%;
 }
-.icon-size-work-experience{
+.icon-size-work-experience {
   font-size: 1.2rem;
   color: #fff;
   position: absolute;
@@ -64,7 +64,7 @@ main h1 {
     position: relative;
     width: 25px;
     height: 25px;
-    background-color: #323b4c;;
+    background-color: #323b4c;
 
     border-radius: 100px;
 
@@ -80,7 +80,7 @@ main h1 {
       position: absolute;
       width: 7px;
       height: 7px;
-      border: 1px solid #7c7c80;;
+      border: 1px solid #7c7c80;
       background-color: rgb(255, 255, 255);
 
       border-radius: 50%;
@@ -99,7 +99,7 @@ main h1 {
     position: relative;
     width: 25px;
     height: 25px;
-    background-color: #323b4c;;
+    background-color: #323b4c;
 
     border-radius: 100px;
 
@@ -159,7 +159,7 @@ main h1 {
     position: relative;
     width: 25px;
     height: 25px;
-    background-color: #323b4c;;
+    background-color: #323b4c;
 
     border-radius: 100px;
 
@@ -198,7 +198,6 @@ main h1 {
   }
 }
 
-
 /* ////////////////////////////// */
 
 header {
@@ -217,12 +216,12 @@ header {
   }
   h1 {
     font-size: 3.2rem;
-    color: #FDFCFD;
+    color: #fdfcfd;
     margin-bottom: 0.6rem;
   }
 
   h3 {
-    color: #B7BDC5;
+    color: #b7bdc5;
     font-size: 1.5rem;
     font-weight: 400;
   }
@@ -261,7 +260,7 @@ header {
 /* 1st col */
 .row > .col-2-of-4 {
   width: calc(2 * ((100% - 2 * var(--gutter-horizontal)) / 6));
-  background-color: #ddd;
+  background-color: #e4e4e4;
   .contact {
     margin-top: 10rem;
   }
@@ -283,7 +282,6 @@ header {
       font-size: 1.2rem;
       color: #000;
       text-decoration: none;
-      
     }
   }
 
@@ -381,7 +379,6 @@ header {
       }
       .job-year {
         float: right;
-        
       }
     }
   }
